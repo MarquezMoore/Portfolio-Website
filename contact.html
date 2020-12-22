@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="https://www.wikipedia.org/static/favicon/wikipedia.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto?thickness=2&selection.family=Roboto:wght@100;400;700">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+     <header class="page-header">
+        <img src="imgs/Marquez Moore-logo/vector/default-monochrome-black.svg" alt="" class="page-header-logo page-header__item">
+        <nav class="main-nav page-header__item">
+            <ul role="menubar" class="main-nav-list">
+                <li role="persentation">
+                    <a href="index.html" role="menuitem" class="main-nav-list__item main-nav-list__item--active">Home</a>
+                </li>
+                <li role="persentation">
+                    <a href="about.html" role="menuitem" class="main-nav-list__item">About Me</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="main-nav-list__item">Work</a>
+                </li>
+                <li role="persentation">
+                    <a href="contact.html" role="menuitem" class="main-nav-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form class="contact-form" action="#" method="post">
+            <h1>Contact Me</h1>
+            <div>
+                <label class="standard-label" for="firstname">First Name:</label>
+                <input type="text" id="firstname" placeholder="Enter first name" required>
+            </div>
+                 <label class="standard-label" for="lastname">Last Name:</label>
+                <input type="text" id="lastname" placeholder="Enter last name" required>
+            <div>
+            </div>
+                 <label class="standard-label" for="tel">Phone Number:</label>
+                <input type="tel" id="tel" placeholder="Enter phone number" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            <div>
+            </div>
+                 <label class="standard-label" for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter email" required>
+            <div>
+                <label class="standard-label" for="message">Message: </label>
+                <textarea maxlength="240" name="message" id="message" cols="30" rows="10" placeholder="Enter message" required></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send Message">
+            </div>
+        </form>
+        
+        <section>
+            <a href="mailto:marquezmoore23@gmail.com">marquezmoore23@gmail.com</a>
+            <br>
+            <a href="tel:+491733812998" aria-label="Call Marquez Moore">+49 173 318-2998</a>
+            <br>
+            <a href="mailto:marquezmoore23<h2>gmail.com</h2>">Contact</a>
+        </section>
+    </main>
+    
+     <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <a href="#">
+                <img src="imgs/iconfinder_71-github_4202098.svg" alt="github">
+            </a>
+            <a href="#">
+                <img src="imgs/iconfinder_square-linkedin_317725.svg" alt="linkedIn">
+            </a>
+            <a href="#">
+                <img src="imgs/iconfinder_twitter_317720 (1).svg" alt="twitter">
+            </a>
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+</html>
