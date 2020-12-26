@@ -7,58 +7,61 @@
     <link rel="shortcut icon" href="https://www.wikipedia.org/static/favicon/wikipedia.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto?thickness=2&selection.family=Roboto:wght@100;400;700">
-    <link rel="stylesheet" type="text/css" href="css/style.developement.css">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
 </head>
     
 <body>
     <header id="page-header" class="page-header">
-        <div class="darken">
-            <section class="nav-container page-header__item">
-                <div class="logo">
-                    <img  src="imgs/Logos/MARQ_black_thick-05.svg" alt="Marquez Moore's Logo">
-                </div>
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a id="contact-button" href="#contact"><button>Contact</button></a></li>
-                    </ul>
-                </nav>
-            </section>
-
-            <section class="page-header__item">
-                <div class="intro-container">
-                    <h1>WELLCOME</h1>
-                    <h2>I'M MARQUEZ</h2>
-                    <p>I am a full stack web developer.</p>
-                    <p></p>
-                    <a href="#about" aria-label="Read more about Marquez Moore">Read More</a>
-                </div>
-            </section>
-        </div>
+            <div class="logo">
+                <img  src="imgs/Logos/MARQ_black_thick-05.svg" alt="Marquez Moore's Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about" aria-label="Learn more about Marquez">About</a></li>
+                    <li><a id="contact-button" href="#contact"><button>Contact</button></a></li>
+                </ul>
+            </nav>
     </header>
     
     
     <main>
-        <section id="profile" class="profile">
-            <div class="profile__item-left"> </div>
-            <div class="profile__content profile__item-right">
-                <h2 class="profile__header">Hello World!</h2>
-                <p class="profile__copy">Hello! My name is Marquez Moore I am a full-stack web developer.</p>
-                <a href="#">Check out some of my code!</a>
+        <section class="into">
+            <div class="intro-container">
+                <h1>WELCOME</h1>
+                <h2>I'M MARQUEZ</h2>
+                <p>I am a full stack web developer.</p>
+                <a href="#about" aria-label="Read more about Marquez Moore">Read More</a>
+                <div class="social-media">
+                    <a href="#">
+                        <img src="imgs/iconmonstr-linkedin-1.svg" alt="linkedIn">
+                    </a>
+                    <a href="#">
+                        <img src="imgs/iconmonstr-github-1.svg" alt="github">
+                    </a>
+                    <a href="#">
+                        <img src="imgs/iconmonstr-instagram-11.svg" alt="Instagram">
+                    </a>
+                    <a href="#">
+                        <img src="imgs/iconmonstr-behance-1.svg" alt="Behance">
+                    </a>
+                </div>
             </div>
-        </section>    
+        </section>  
         
-        <section id="about" class="about-me__section">
-            <h1 class="about-me__header">About Me!</h1>
-            <div>
-                <p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis minus hic ducimus assumenda delectus necessitatibus facere iure ea voluptates dolorem placeat id quibusdam sequi ab ratione quaerat, ex vel voluptas:</p>
+        <section id="about" class="about">
+            <div class="about__image about__item">
+                <img src="imgs/profile-image.png" alt="Image of Marquez Moore">
+            </div>
+
+            <div class="about__content-container about__item">
+                <h1 class="about__header">About Me!</h1>
+                <p class="about__copy">As you may already know, my name is Marquez Moore. I was born and raised on the east coast of the USA. Through my years of colliegte studies, I gained a degree in Information Technology with a minor in Business Administration. Following graduation, I went on to work in opertations for Amazon, real-estate for Caliber living before deciding to move to Germany to gain international exposure. </p>
                 <ul class="about-me__hobbies">
-                    <li>Hobby 1</li>
-                    <li>Hobby 1</li>
-                    <li>Hobby 1</li>
-                    <li>Hobby 1</li>
+                    <li>Photography</li>
+                    <li>Woodworking</li>
+                    <li>Life Long Learning</li>
                 </ul>
                 <a href="files/Marquez_Moore_Resume.pdf" class="button about-me__cta" download aria-label="Download Marquez's Resume">Download my CV!</a>
             </div>
@@ -130,17 +133,22 @@
     </main>
     
     <footer class="page-footer">
-        <p>Find me on:</p>
         <div class="social-media">
-            <a href="#">
-                <img src="imgs/iconfinder_71-github_4202098.svg" alt="github">
-            </a>
-            <a href="#">
-                <img src="imgs/iconfinder_square-linkedin_317725.svg" alt="linkedIn">
-            </a>
-            <a href="#">
-                <img src="imgs/iconfinder_twitter_317720 (1).svg" alt="twitter">
-            </a>
+                    <a href="#">
+                        <img src="imgs/iconmonstr-linkedin-1.svg" alt="linkedIn">
+                    </a>
+                    <a href="#">
+                        <img src="imgs/iconmonstr-github-1.svg" alt="github">
+                    </a>
+                    <a href="#">
+                        <img src="imgs/iconmonstr-instagram-11.svg" alt="Instagram">
+                    </a>
+                    <a href="#">
+                        <img src="imgs/iconmonstr-behance-1.svg" alt="Behance">
+                    </a>
+        </div>
+        <div class="copywrite">
+            <p>Marquez Moore © 2021</p>
         </div>
     </footer>
     <script src="js/tota11y.min.js"></script>
