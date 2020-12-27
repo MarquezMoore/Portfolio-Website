@@ -124,7 +124,8 @@ a:visted {
 }
 button,
 .button,
-.submit
+.submit,
+.contact-button
  {
     display: inline-block;
     text-decoration: none;
